@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+#container{
+    display: flex;
+    max-width: 45%;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid black;
+    /* height: 250px; */
+}
+
+#delete{
+    height: 20px;
+    width: 26px;
+}
+
+#bigDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#textDiv{
+    border-left: 2px dotted rgb(63, 59, 59);
+    border-right: 2px dotted rgb(63, 59, 59);
+}
+
+
+#lastDiv,#textDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 1rem 0rem;
+    padding-left: .5rem;
+}
+
+#quantDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+#toDiv{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+
